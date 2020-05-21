@@ -5,6 +5,7 @@ Graphics and analysis files for the analysis of the N2.2002 neuraminidase from 2
 Effective population size studies were run using BEAST 1.8.4 in duplicate. The seeds for the runs as such
 
  | Phylogenetic clade | BEAST XML location | Run1 | Run2 | 
+ | ------------------ | ------------------ | ---- | ---- |
  | N2.1998 (full) | N2.1998_eps/n2_98_refined.aln.xml | 1540330733520 | 1540330926474 | 
  | N2.2002 (full) | N2.2002_eps/n2_02_refined2.aln.xml | 1542054165048 | 1542054280700 | 
  | N2.1998A | figures1_figures5_split_eps_plots/98A.aln.xml | 1546965014683 | 1546965036074 | 
