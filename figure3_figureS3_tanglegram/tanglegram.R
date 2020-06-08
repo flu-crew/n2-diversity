@@ -1,8 +1,11 @@
-#Section for instlaling rerq packages. Uncomment as needed.
-#install.packages("dendextend")
-#install.packages("ape")
-source("https://bioconductor.org/biocLite.R")
-biocLite("DECIPHER")
+#Section for installing rerq packages. Uncomment as needed.
+install.packages("dendextend")
+install.packages("ape")
+#Bioconductor install for Rv3.6 is v3.10, if Rv4 is installed, use more recent version.
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install(version = "3.10")
+BiocManager::install("DECIPHER")
 
 #Load libraries
 library(dendextend) # for comparing two dendrograms
