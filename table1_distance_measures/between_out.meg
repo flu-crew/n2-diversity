@@ -1,0 +1,54 @@
+#mega
+!Title: d;
+!Format DataType=Distance DataFormat=LowerLeft NTaxa=6;
+!Description
+  No. of Taxa:4246
+  No. of Groups:6
+  Analysis:Distance Estimation
+  Scope:Between group average
+  Estimate Variance:====================
+  Variance Estimation Method:None
+  No. of Bootstrap Replications:Not Applicable
+  Substitution Model:====================
+  Substitutions Type:Nucleotide
+  Model/Method:Maximum Composite Likelihood
+  Fixed Transition/Transversion Ratio:Not Applicable
+  Substitutions to Include:d: Transitions + Transversions
+  Rates and Patterns:====================
+  Rates among Sites:Uniform Rates
+  Gamma Parameter:Not Applicable
+  Pattern among Lineages:Same (Homogeneous)
+  Data Subset to Use:====================
+  Gaps/Missing Data Treatment:Pairwise deletion
+  Site Coverage Cutoff (%):Not Applicable
+  Select Codon Positions:1st, 2nd, 3rd, Non-Coding
+  Genetic Code Table:Not Applicable
+  Genetic Code:Not Applicable
+  Has Time Limit:False
+  Maximum Execution Time:-1
+  datatype:snNucleotide
+  containsCodingNuc:True
+  MissingBaseSymbol:?
+  IdenticalBaseSymbol:.
+  GapSymbol:-
+  Labelled Sites:All Sites
+  Labels to Include:
+  No. of Sites:1490
+  d:Estimate
+;
+
+[1] #1998
+[2] #98A
+[3] #98B
+[4] #2002
+[5] #02A
+[6] #02B
+
+[             1           2           3           4           5           6 ]
+[1]              
+[2]   0.06872271             
+[3]   0.07919234  0.11449156             
+[4]   0.07150704  0.09817396  0.11301475             
+[5]   0.08801555  0.11834360  0.12201734  0.06146681             
+[6]   0.09310852  0.11808388  0.13585155  0.06451316  0.08035426             
+

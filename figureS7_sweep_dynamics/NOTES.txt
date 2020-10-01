@@ -1,0 +1,7 @@
+docker run -v D:\Lab\neuraminidase_diversity\sdplots:/app/sdplots tklingenbifolab/sdplots:beta -i nn98B -o nn98bOut -r "A/swine/North_Carolina/SG1359/2010" -n 14 -p "png"
+
+docker run -v D:\Lab\neuraminidase_diversity\sdplots:/app/sdplots tklingenbifolab/sdplots:beta -i nn98A -o nn98aOut -r "A/swine/Texas/03042/2010"  -n 14 -p "png"
+
+docker run -v D:\Lab\neuraminidase_diversity\sdplots:/app/sdplots tklingenbifolab/sdplots:beta -i nn02A -o nn02aOut -r "A/swine/SD/31813/2009"  -n 14 -p "png"
+
+docker run -v D:\Lab\neuraminidase_diversity\sdplots:/app/sdplots tklingenbifolab/sdplots:beta -i nn02B -o nn02bOut -r "A/swine/Minnesota/A01076196/2010"  -n 14 -p "png"

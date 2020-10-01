@@ -1,0 +1,412 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=310;
+	taxlabels
+	'CY107030|A/swine/Minnesota/A01076196/2010|Minnesota|02B|cluster_ivb|20100228'[&!color=#ff0033]
+	'JF833346|A/swine/Iowa/A01049113/2010|Iowa|02B|cluster_ivb|20101122'[&!color=#ff0033]
+	'JN162015|A/swine/Iowa/A01049317/2010|Iowa|02B|cluster_ivb|20101222'[&!color=#ff0033]
+	'JN652545|A/swine/Nebraska/A01049937/2011|Nebraska|02B|cluster_ivb|20110504'
+	'JQ689094|A/swine/Minnesota/A01047396/2011|Minnesota|02B|cluster_ive|20110113'
+	'JQ689118|A/swine/Missouri/A01047969/2010|Missouri|02B|cluster_ivd|20101214'[&!color=#ff0033]
+	'JQ739709|A/swine/Iowa/A01203196/2012|Iowa|02B|cluster_ivd|20120126'
+	'JQ756391|A/swine/Minnesota/A01240095/2011|Minnesota|02B|cluster_ivb|20111121'
+	'JQ783092|A/swine/Iowa/A01076630/2010|Iowa|02B|cluster_ivb|20101026'[&!color=#ff0033]
+	'JQ783093|A/swine/Iowa/A01076632/2010|Iowa|02B|cluster_ivb|20101026'[&!color=#ff0033]
+	'JQ783097|A/swine/Minnesota/A01116200/2011|Minnesota|02B|cluster_ivb|20110829'
+	'JQ783103|A/swine/Minnesota/A01201894/2011|Minnesota|02B|cluster_ivd|20110705'
+	'JQ922362|A/swine/Missouri/A01240016/2011|Missouri|02B|cluster_ivd|20111115'
+	'JX092344|A/swine/Nebraska/A01202501/2011|Nebraska|02B|delta1b|20110810'
+	'JX092589|A/swine/Iowa/A01203104/2011|Iowa|02B|cluster_ivb|20111227'
+	'JX163279|A/swine/Indiana/A01203509/2012|Indiana|02B|cluster_iva|20120509'
+	'JX422409|A/swine/Minnesota/A01328452/2012|Minnesota|02B|cluster_ivb|20120412'
+	'JX494413|A/swine/Indiana/A00968380/2012|Indiana|02B|cluster_iva|20120718'
+	'JX549147|A/swine/Indiana/A00968386/2012|Indiana|02B|cluster_iva|20120726'
+	'JX964956|A/swine/Ohio/A01133464/2012|Ohio|02B|cluster_iva|20120803'
+	'KC134401|A/swine/Iowa/A01203863/2012|Iowa|02B|cluster_iva|20121001'
+	'KC139737|A/swine/Minnesota/A01271001/2012|Minnesota|02B|cluster_ivb|20121017'
+	'KC149916|A/swine/Minnesota/A01271227/2012|Minnesota|02B|cluster_ivb|20121008'
+	'KC261896|A/swine/Indiana/A00968394/2012|Indiana|02B|cluster_iva|20120806'
+	'KC333083|A/swine/Nebraska/A01277229/2012|Nebraska|02B|delta1b|20121113'
+	'KC333095|A/swine/Nebraska/A01277245/2012|Nebraska|02B|delta1b|20121113'
+	'KC355814|A/swine/Iowa/A01279512/2012|Iowa|02B|cluster_ivb|20121203'
+	'KC445237|A/swine/Minnesota/A01442411/2012|Minnesota|02B|cluster_ivb|20120417'
+	'KC534998|A/swine/Indiana/A01432300/2012|Indiana|02B|cluster_iva|20121213'
+	'KC535004|A/swine/Iowa/A01432308/2012|Iowa|02B|cluster_iva|20121218'
+	'KC576836|A/swine/Minnesota/A01280462/2013|Minnesota|02B|cluster_iva|20130123'
+	'KC751555|A/swine/Kansas/13105721a/2013|Kansas|02B|cluster_iva|20130220'
+	'KC790358|A/swine/Nebraska/A01445765/2013|Nebraska|02B|delta1b|20130225'
+	'KC839569|A/swine/Michigan/A01259034/2012|Michigan|02B|cluster_ivc|20121218'
+	'KC844199|A/swine/Minnesota/A01349281/2013|Minnesota|02B|delta1b|20130308'
+	'KC849380|A/swine/North_Carolina/A01432584/2013|North_Carolina|02B|cluster_iva|20130301'
+	'KC992247|A/swine/Minnesota/A01379746/2013|Minnesota|02B|cluster_ivb|20130415'
+	'KF113319|A/swine/Iowa/A01432680/2013|Iowa|02B|cluster_ivb|20130501'
+	'KF113322|A/swine/North_Carolina/A01432692/2013|North_Carolina|02B|delta2|20130501'
+	'KF113334|A/swine/North_Carolina/A01432694/2013|North_Carolina|02B|delta2|20130501'
+	'KF179120|A/swine/Indiana/A01260280/2013|Indiana|02B|cluster_iva|20130419'
+	'KF179126|A/swine/Indiana/A01260284/2013|Indiana|02B|cluster_iva|20130430'
+	'KF179129|A/swine/Indiana/A01260285/2013|Indiana|02B|cluster_ivc|20130430'
+	'KF234536|A/swine/Kansas/13112936/2013|Kansas|02B|delta1b|20130401'
+	'KF437329|A/swine/Minnesota/A01351603/2013|Minnesota|02B|cluster_iva|20130711'
+	'KF715153|A/swine/North_Carolina/A01291206/2013|North_Carolina|02B|gamma|20130901'
+	'KF772968|A/swine/Minnesota/A01392515/2013|Minnesota|02B|cluster_ivb|20131002'
+	'KF791387|A/swine/Illinois/A01290614/2013|Illinois|02B|cluster_ivc|20131001'
+	'KF814103|A/swine/Iowa/13C038/2013|Iowa|02B|cluster_ivb|20130326'
+	'KF856882|A/swine/Minnesota/A01365586/2013|Minnesota|02B|cluster_ivb|20131030'
+	'KF874266|A/swine/Illinois/A01394861/2013|Illinois|02B|cluster_iva|20131002'
+	'KF888394|A/swine/Minnesota/A01365842/2013|Minnesota|02B|cluster_ivb|20131101'
+	'KF918424|A/swine/Iowa/A01365906/2013|Iowa|02B|cluster_iva|20131115'
+	'KF922763|A/swine/North_Carolina/A01290722/2013|North_Carolina|02B|cluster_iva|20131101'
+	'KF922802|A/swine/North_Carolina/A01290717/2013|North_Carolina|02B|cluster_iva|20131101'
+	'KF960693|A/swine/Minnesota/A01366050/2013|Minnesota|02B|cluster_iva|20131127'
+	'KF982064|A/swine/South_Dakota/A01366093/2013|South_Dakota|02B|cluster_iva|20131203'
+	'KF986879|A/swine/Minnesota/A01409450/2013|Minnesota|02B|cluster_iva|20131101'
+	'KF986937|A/swine/North_Carolina/A01409423/2013|North_Carolina|02B|cluster_iva|20131201'
+	'KF998036|A/swine/Illinois/A01427136/2013|Illinois|02B|cluster_iva|20131104'
+	'KJ128351|A/swine/Nebraska/A01395901/2013|Nebraska|02B|cluster_iva|20131210'
+	'KJ128360|A/swine/Nebraska/A01393702/2013|Nebraska|02B|cluster_iva|20131216'
+	'KJ130103|A/swine/Iowa/A01290867/2013|Iowa|02B|cluster_iva|20131101'
+	'KJ154081|A/swine/Illinois/A01409735/2013|Illinois|02B|cluster_iva|20131230'
+	'KJ154113|A/swine/Illinois/A01409657/2013|Illinois|02B|cluster_iva|20131218'
+	'KJ437582|A/swine/Illinois/A01411343/2014|Illinois|02B|gamma|20140101'
+	'KJ452378|A/swine/Iowa/13H075/2013|Iowa|02B|cluster_iva|20130828'
+	'KJ452394|A/swine/Iowa/13H068/2013|Iowa|02B|cluster_iva|20130828'
+	'KJ470683|A/swine/Indiana/A01260416/2013|Indiana|02B|cluster_iva|20131111'
+	'KJ484599|A/swine/Kansas/A01377165/2013|Kansas|02B|cluster_iva|20131202'
+	'KJ493384|A/swine/Illinois/A01409994/2014|Illinois|02B|cluster_iva|20140201'
+	'KJ493393|A/swine/North_Carolina/A01409981/2014|North_Carolina|02B|cluster_iva|20140201'
+	'KJ579978|A/swine/Indiana/A01260462/2014|Indiana|02B|cluster_iva|20140102'
+	'KJ588370|A/swine/Iowa/A01480042/2014|Iowa|02B|cluster_iva|20140207'
+	'KJ588373|A/swine/South_Dakota/A01480341/2014|South_Dakota|02B|cluster_iva|20140227'
+	'KJ604998|A/swine/Indiana/A01410396/2014|Indiana|02B|cluster_iva|20140301'
+	'KJ605025|A/swine/Illinois/A01410409/2014|Illinois|02B|cluster_iva|20140301'
+	'KJ813428|A/swine/North_Carolina/A01410672/2014|North_Carolina|02B|cluster_iva|20140401'
+	'KJ859571|A/swine/North_Carolina/A01410691/2014|North_Carolina|02B|cluster_iva|20140401'
+	'KJ859583|A/swine/North_Carolina/A01410709/2014|North_Carolina|02B|cluster_iva|20140401'
+	'KJ859589|A/swine/Indiana/A01410773/2014|Indiana|02B|cluster_iva|20140501'
+	'KJ859595|A/swine/North_Carolina/A01410779/2014|North_Carolina|02B|cluster_iva|20140501'
+	'KJ889293|A/swine/South_Dakota/A01481392/2014|South_Dakota|02B|cluster_iva|20140513'
+	'KJ949136|A/swine/Iowa/A01501240/2014|Iowa|02B|cluster_iva|20140519'
+	'KM005111|A/swine/Minnesota/A01501491/2014|Minnesota|02B|delta1a|20140527'
+	'KM027362|A/swine/North_Carolina/A01410920/2014|North_Carolina|02B|delta2|20140501'
+	'KM076714|A/swine/Iowa/13H065/2013|Iowa|02B|cluster_iva|20130828'
+	'KM076722|A/swine/Iowa/13H076/2013|Iowa|02B|cluster_iva|20130828'
+	'KM076738|A/swine/Iowa/13H092/2013|Iowa|02B|cluster_iva|20130828'
+	'KM100148|A/swine/Illinois/A01501987/2014|Illinois|02B|cluster_iva|20140618'
+	'KM102652|A/swine/Illinois/A01502060/2014|Illinois|02B|cluster_iva|20140618'
+	'KM102655|A/swine/Illinois/A01502053/2014|Illinois|02B|cluster_iva|20140618'
+	'KM186108|A/swine/Illinois/A01475803/2014|Illinois|02B|cluster_ivb|20140617'
+	'KM503161|A/swine/Indiana/A01260591/2014|Indiana|02B|cluster_ivb|20140716'
+	'KM576120|A/swine/Kansas/A01377352/2014|Kansas|02B|gamma|20140908'
+	'KM593173|A/swine/Illinois/A01503899/2014|Illinois|02B|cluster_iva|20140827'
+	'KM675471|A/swine/Minnesota/A01565076/2014|Minnesota|02B|cluster_ivb|20140910'
+	'KM821598|A/swine/North_Carolina/A01478000/2014|North_Carolina|02B|cluster_iva|20140829'
+	'KM853024|A/swine/Minnesota/A01565282/2014|Minnesota|02B|delta1a|20140922'
+	'KM879420|A/swine/North_Carolina/A01476427/2014|North_Carolina|02B|cluster_iva|20140917'
+	'KM879432|A/swine/Iowa/A01476426/2014|Iowa|02B|cluster_iva|20140917'
+	'KM879438|A/swine/North_Carolina/A01476419/2014|North_Carolina|02B|cluster_iva|20140917'
+	'KM885182|A/swine/Minnesota/A01482977/2014|Minnesota|02B|delta1a|20140915'
+	'KP019666|A/swine/Iowa/A01476428/2014|Iowa|02B|cluster_iva|20140916'
+	'KP081632|A/swine/Minnesota/A01566110/2014|Minnesota|02B|alpha|20141017'
+	'KP137736|A/swine/North_Carolina/A01476719/2014|North_Carolina|02B|cluster_iva|20141014'
+	'KP137754|A/swine/North_Carolina/A01476688/2014|North_Carolina|02B|cluster_iva|20141010'
+	'KP186032|A/swine/North_Carolina/A01476730/2014|North_Carolina|02B|cluster_iva|20141013'
+	'KP186053|A/swine/North_Carolina/A01476757/2014|North_Carolina|02B|cluster_iva|20141019'
+	'KP186101|A/swine/Minnesota/A01566470/2014|Minnesota|02B|gamma|20140717'
+	'KP233684|A/swine/North_Carolina/A01476848/2014|North_Carolina|02B|cluster_iva|20141021'
+	'KP233690|A/swine/North_Carolina/A01476883/2014|North_Carolina|02B|cluster_iva|20141030'
+	'KP242034|A/swine/South_Dakota/A01483859/2014|South_Dakota|02B|delta1a|20141114'
+	'KP288065|A/swine/Illinois/A01478295/2014|Illinois|02B|beta|20141113'
+	'KP288143|A/swine/North_Carolina/A01477954/2014|North_Carolina|02B|cluster_iva|20141121'
+	'KP336414|A/swine/Ohio/A01567020/2014|Ohio|02B|cluster_iva|20141210'
+	'KP341358|A/swine/Arkansas/A01840096/2014|Arkansas|02B|cluster_iva|20141209'
+	'KP412356|A/swine/Oklahoma/A01567195/2014|Oklahoma|02B|cluster_iva|20141218'
+	'KP461610|A/swine/Illinois/A01555180/2014|Illinois|02B|cluster_ivb|20141218'
+	'KP461628|A/swine/Arkansas/A01555210/2014|Arkansas|02B|cluster_ivb|20141222'
+	'KP461655|A/swine/Arkansas/A01555162/2014|Arkansas|02B|cluster_iva|20141211'
+	'KP461661|A/swine/Missouri/A01840170/2014|Missouri|02B|2010.1|20141215'[&!color=#ff0033]
+	'KP662591|A/swine/Minnesota/A01469329/2014|Minnesota|02B|cluster_iva|20141218'
+	'KP662623|A/swine/Indiana/A01840253/2014|Indiana|02B|cluster_iva|20141209'
+	'KP842744|A/swine/Illinois/A01840336/2015|Illinois|02B|cluster_iva|20150112'
+	'KP901331|A/swine/Illinois/A01478741/2015|Illinois|02B|delta1a|20150204'
+	'KP901337|A/swine/North_Carolina/A01555522/2015|North_Carolina|02B|cluster_iva|20150203'
+	'KP901346|A/swine/Illinois/A01555516/2015|Illinois|02B|delta1a|20150131'
+	'KP972102|A/swine/Illinois/A01462644/2015|Illinois|02B|cluster_iva|20150129'
+	'KR010625|A/swine/Iowa/A01470314/2015|Iowa|02B|cluster_ivb|20150309'
+	'KR012363|A/swine/Oklahoma/A01841022/2015|Oklahoma|02B|delta1a|20150224'
+	'KR265525|A/swine/Illinois/A01470861/2015|Illinois|02B|delta1a|20150415'
+	'KR611169|A/swine/Nebraska/A01847184/2015|Nebraska|02B|cluster_iva|20150407'
+	'KR821150|A/swine/Illinois/A01820364/2015|Illinois|02B|cluster_iva|20150414'
+	'KT000065|A/swine/Oklahoma/A02076844/2015|Oklahoma|02B|delta1a|20150505'
+	'KT000080|A/swine/Iowa/A02076873/2015|Iowa|02B|cluster_iva|20150508'
+	'KT000086|A/swine/Minnesota/A01847108/2015|Minnesota|02B|cluster_ivb|20150403'
+	'KT099109|A/swine/Iowa/A01822175/2015|Iowa|02B|cluster_ivb|20150518'
+	'KT164881|A/swine/Iowa/A02076879/2015|Iowa|02B|gamma|20150513'
+	'KT165018|A/swine/Indiana/A01260863/2015|Indiana|02B|cluster_iva|20150403'
+	'KT259331|A/swine/Indiana/A02077934/2015|Indiana|02B|delta1a|20150609'
+	'KT274684|A/swine/Arkansas/A02035008/2015|Arkansas|02B|delta1a|20150622'
+	'KT356704|A/swine/Iowa/A02025170/2015|Iowa|02B|delta1a|20150707'
+	'KT580862|A/swine/Indiana/A01260888/2015|Indiana|02B|delta1a|20150504'
+	'KT580886|A/swine/Indiana/A01260906/2015|Indiana|02B|delta1a|20150520'
+	'KT595713|A/swine/Iowa/A02025416/2015|Iowa|02B|delta1b|20150727'
+	'KT750786|A/swine/Iowa/A01769394/2015|Iowa|02B|cluster_ivb|20150806'
+	'KT803109|A/swine/Oklahoma/A01770672/2015|Oklahoma|02B|delta1a|20150820'
+	'KT803112|A/swine/Illinois/A01770678/2015|Illinois|02B|cluster_iva|20150824'
+	'KT803124|A/swine/North_Carolina/A02025678/2015|North_Carolina|02B|cluster_iva|20150821'
+	'KT804001|A/swine/Indiana/A01260933/2015|Indiana|02B|gamma|20150705'
+	'KT825098|A/swine/Iowa/A02025827/2015|Iowa|02B|delta1a|20150828'
+	'KT889346|A/swine/Iowa/A01945156/2015|Iowa|02B|cluster_ivb|20150922'
+	'KT924266|A/swine/Iowa/A01944211/2015|Iowa|02B|cluster_iva|20150928'
+	'KT924281|A/swine/Illinois/A01945293/2015|Illinois|02B|delta1a|20150928'
+	'KT952010|A/swine/Minnesota/A01940683/2015|Minnesota|02B|delta1a|20151001'[&!color=#ff0033]
+	'KT965427|A/swine/Indiana/A01945616/2015|Indiana|02B|gamma|20151002'
+	'KT995476|A/swine/Kansas/A01377582/2015|Kansas|02B|cluster_iva|20150810'
+	'KT995487|A/swine/North_Carolina/A01945452/2015|North_Carolina|02B|cluster_iva|20151006'
+	'KU143599|A/swine/Minnesota/A01940814/2015|Minnesota|02B|cluster_iva|20151019'
+	'KU143605|A/swine/Minnesota/A01940765/2015|Minnesota|02B|cluster_iva|20151019'
+	'KU143647|A/swine/North_Carolina/A01945726/2015|North_Carolina|02B|cluster_iva|20151019'
+	'KU143653|A/swine/North_Carolina/A01945728/2015|North_Carolina|02B|cluster_iva|20151019'
+	'KU143659|A/swine/Illinois/A01945741/2015|Illinois|02B|delta1a|20151020'
+	'KU160679|A/swine/North_Carolina/A01945823/2015|North_Carolina|02B|cluster_iva|20151023'
+	'KU160764|A/swine/North_Carolina/A01945939/2015|North_Carolina|02B|cluster_iva|20151024'
+	'KU171021|A/swine/Illinois/A01749160/2015|Illinois|02B|delta1a|20151027'
+	'KU204734|A/swine/Indiana/A01812040/2015|Indiana|02B|delta1a|20151026'
+	'KU204742|A/swine/Indiana/A01260967/2015|Indiana|02B|cluster_ivb|20150824'
+	'KU217450|A/swine/Illinois/A01749186/2015|Illinois|02B|delta1a|20151102'
+	'KU229925|A/swine/Iowa/A01944835/2015|Iowa|02B|cluster_iva|20151027'
+	'KU242657|A/swine/Illinois/A01797275/2015|Illinois|02B|cluster_iva|20151102'
+	'KU306901|A/swine/Illinois/A01749356/2015|Illinois|02B|delta1a|20151117'
+	'KU311467|A/swine/Kansas/A01377619/2015|Kansas|02B|cluster_iva|20151022'
+	'KU379573|A/swine/North_Carolina/A01797533/2015|North_Carolina|02B|cluster_ivb|20151119'
+	'KU379620|A/swine/Iowa/A01796466/2015|Iowa|02B|cluster_iva|20151119'
+	'KU513671|A/swine/Illinois/A01727602/2015|Illinois|02B|cluster_iva|20151211'
+	'KU513695|A/swine/Illinois/A01727532/2015|Illinois|02B|cluster_iva|20151210'
+	'KU517768|A/swine/Minnesota/A01941555/2015|Minnesota|02B|delta1a|20151216'
+	'KU517774|A/swine/Minnesota/A01941510/2015|Minnesota|02B|2010.1|20151209'[&!color=#ff0033]
+	'KU529108|A/swine/Pennsylvania/A01727958/2015|Pennsylvania|02B|cluster_iva|20151215'
+	'KU529124|A/swine/Indiana/A01727837/2015|Indiana|02B|delta1a|20151214'
+	'KU558792|A/swine/Oklahoma/A01728023/2015|Oklahoma|02B|cluster_iva|20151216'
+	'KU598282|A/swine/Iowa/A01729216/2016|Iowa|02B|alpha|20160106'
+	'KU666862|A/swine/Illinois/A01729658/2016|Illinois|02B|cluster_iva|20160114'
+	'KU666880|A/swine/Illinois/A01729512/2016|Illinois|02B|delta1a|20160112'
+	'KU752376|A/swine/Oklahoma/A01730659/2016|Oklahoma|02B|delta1a|20160128'
+	'KU861173|A/swine/Illinois/A01731308/2016|Illinois|02B|delta1a|20160210'
+	'KU877354|A/swine/Oklahoma/A01731603/2016|Oklahoma|02B|delta1a|20160212'
+	'KU933464|A/swine/Minnesota/A01676072/2016|Minnesota|02B|alpha|20160309'
+	'KU936907|A/swine/Illinois/A01749812/2016|Illinois|02B|cluster_iva|20160229'
+	'KU954083|A/swine/Iowa/A01942648/2016|Iowa|02B|2010.1|20160229'[&!color=#ff0033]
+	'KX008682|A/swine/Illinois/A01732740/2016|Illinois|02B|delta1a|20160302'
+	'KX008715|A/swine/Iowa/A01732123/2016|Iowa|02B|gamma|20160218'
+	'KX036680|A/swine/Oklahoma/A01733480/2016|Oklahoma|02B|delta1a|20160306'
+	'KX086564|A/swine/Indiana/A01812189/2016|Indiana|02B|delta1a|20160316'
+	'KX150784|A/swine/North_Carolina/A01894593/2016|North_Carolina|02B|alpha|20160330'
+	'KX185844|A/swine/Pennsylvania/A01894999/2016|Pennsylvania|02B|delta2|20160405'
+	'KX185877|A/swine/Illinois/A01895323/2016|Illinois|02B|delta1a|20160411'
+	'KX197506|A/swine/Illinois/A01895671/2016|Illinois|02B|cluster_iva|20160418'
+	'KX197535|A/swine/Illinois/A01895430/2016|Illinois|02B|delta1a|20160413'
+	'KX279678|A/swine/Minnesota/A01677686/2016|Minnesota|02B|alpha|20160511'
+	'KX298091|A/swine/Iowa/A01774934/2016|Iowa|02B|delta1a|20160509'
+	'KX351175|A/swine/Arkansas/A01774259/2016|Arkansas|02B|delta1a|20160426'
+	'KX356674|A/swine/Minnesota/A01943452/2016|Minnesota|02B|delta1b|20160509'
+	'KX358875|A/swine/Illinois/A01775416/2016|Illinois|02B|alpha|20160517'
+	'KX380218|A/swine/North_Carolina/A01775722/2016|North_Carolina|02B|alpha|20160519'
+	'KX380236|A/swine/North_Carolina/A01775693/2016|North_Carolina|02B|alpha|20160519'
+	'KX394225|A/swine/Iowa/A01775895/2016|Iowa|02B|alpha|20160525'
+	'KX618890|A/swine/Indiana/A01776934/2016|Indiana|02B|alpha|20160620'
+	'KX631956|A/swine/Indiana/A01812095/2015|Indiana|02B|delta1a|20151208'
+	'KX867525|A/swine/Iowa/A01778875/2016|Iowa|02B|delta1b|20160822'
+	'KX928681|A/swine/Minnesota/A01781045/2016|Minnesota|02B|alpha|20160830'
+	'KX960195|A/swine/Missouri/A01781220/2016|Missouri|02B|delta1a|20160905'
+	'KX960217|A/swine/North_Carolina/A01781579/2016|North_Carolina|02B|cluster_iva|20160920'
+	'KY067447|A/swine/Kansas/A01378016/2016|Kansas|02B|alpha|20160831'
+	'KY067450|A/swine/Kansas/A01378017/2016|Kansas|02B|alpha|20161019'
+	'KY211011|A/swine/Illinois/A01782582/2016|Illinois|02B|delta1a|20161021'
+	'KY284569|A/swine/Minnesota/A01783004/2016|Minnesota|02B|2010.1|20161101'[&!color=#ff0033]
+	'KY328154|A/swine/Iowa/A01783001/2016|Iowa|02B|delta1a|20161101'
+	'KY328156|A/swine/Iowa/A01668208/2016|Iowa|02B|delta1a|20161110'
+	'KY328170|A/swine/North_Carolina/A01668190/2016|North_Carolina|02B|alpha|20161111'
+	'KY328186|A/swine/Ohio/A01668213/2016|Ohio|02B|delta1a|20161109'
+	'KY349114|A/swine/Minnesota/A01678475/2016|Minnesota|02B|2010.1|20161205'[&!color=#ff0033]
+	'KY413021|A/swine/Oklahoma/A01668938/2016|Oklahoma|02B|delta1a|20161130'
+	'KY413037|A/swine/Michigan/A01668934/2016|Michigan|02B|cluster_ivb|20161202'
+	'KY413039|A/swine/Iowa/A01668918/2016|Iowa|02B|delta1a|20161129'
+	'KY522888|A/swine/Iowa/A01672046/2017|Iowa|02B|delta1a|20170105'
+	'KY593238|A/swine/Missouri/A01672094/2017|Missouri|02B|cluster_ivb|20170109'
+	'KY631496|A/swine/Iowa/A01672519/2017|Iowa|02B|delta1a|20170120'
+	'KY631510|A/swine/North_Carolina/A01671835/2017|North_Carolina|02B|alpha|20170118'
+	'KY631516|A/swine/Indiana/A01672517/2017|Indiana|02B|cluster_iva|20170120'
+	'KY744601|A/swine/Nebraska/A01672826/2017|Nebraska|02B|cluster_iva|20170201'
+	'KY744625|A/swine/Illinois/A01672717/2017|Illinois|02B|delta1a|20170207'
+	'KY766075|A/swine/North_Carolina/A01673998/2017|North_Carolina|02B|alpha|20170216'
+	'KY767726|A/swine/Iowa/A01678481/2017|Iowa|02B|delta1a|20170217'
+	'KY802105|A/swine/Indiana/A01932255/2017|Indiana|02B|delta1a|20170215'
+	'KY802115|A/swine/Illinois/A01672520/2017|Illinois|02B|delta1a|20170124'
+	'KY859934|A/swine/Iowa/A01932254/2017|Iowa|02B|delta1a|20170217'
+	'KY873237|A/swine/Iowa/A01932577/2017|Iowa|02B|alpha|20170227'
+	'KY873241|A/swine/Iowa/A01932579/2017|Iowa|02B|delta1a|20170228'
+	'MF073356|A/swine/Nebraska/A01785255/2017|Nebraska|02B|delta1a|20170421'
+	'MF092726|A/swine/Michigan/A02214665/2017|Michigan|02B|delta1a|20170328'
+	'MF092764|A/swine/Iowa/A02214551/2017|Iowa|02B|delta1a|20170410'
+	'MF144699|A/swine/Pennsylvania/A02214908/2017|Pennsylvania|02B|alpha|20170426'
+	'MF144701|A/swine/Nebraska/A02215046/2017|Nebraska|02B|cluster_iva|20170426'
+	'MF150343|A/swine/Indiana/A02214844/2017|Indiana|02B|cluster_iva|20170403'
+	'MF150347|A/swine/Illinois/A02214843/2017|Illinois|02B|2010.1|20170414'[&!color=#ff0033]
+	'MF159363|A/swine/North_Carolina/A02215090/2017|North_Carolina|02B|alpha|20170503'
+	'MF194028|A/swine/Iowa/MT_12_07_4289/2012|Iowa|02B|cluster_ivb|20120831'
+	'MF194124|A/swine/Iowa/MT_12_07_4294/2012|Iowa|02B|cluster_ivb|20120831'
+	'MF194392|A/swine/South_Dakota/MT_12_07_2018/2012|South_Dakota|02B|cluster_iv|20120314'
+	'MF194768|A/swine/Iowa/MT_12_07_4287/2012|Iowa|02B|cluster_ivb|20120831'
+	'MF194804|A/swine/Iowa/MT_12_07_4285/2012|Iowa|02B|cluster_ivb|20120831'
+	'MF471671|A/swine/Iowa/A02217287/2017|Iowa|02B|2010.1|20170616'[&!color=#ff0033]
+	'MF582525|A/swine/Iowa/A02218170/2017|Iowa|02B|2010.1|20170622'[&!color=#ff0033]
+	'MF613965|A/swine/Iowa/A02218163/2017|Iowa|02B|2010.1|20170621'[&!color=#ff0033]
+	'MF801469|A/swine/Ohio/A01354315/2017|Ohio|02B|2010.1|20170804'[&!color=#ff0033]
+	'MF872674|A/swine/Ohio/A01354316/2017|Ohio|02B|delta2|20170813'
+	'MF919914|A/swine/Minnesota/MT_13_01_S74/2013|Minnesota|02B|cluster_ivb|20130225'
+	'MF919975|A/swine/Minnesota/MT_13_01_S89/2013|Minnesota|02B|cluster_ivb|20130220'
+	'MF919990|A/swine/Minnesota/MT_13_01_S62/2013|Minnesota|02B|cluster_ivb|20130220'
+	'MF919998|A/swine/Minnesota/MT_13_01_S59/2013|Minnesota|02B|cluster_ivb|20130220'
+	'MF920016|A/swine/Minnesota/MT_13_01_S70/2013|Minnesota|02B|cluster_ivb|20130225'
+	'MF920403|A/swine/Minnesota/A02219546/2017|Minnesota|02B|delta1a|20170811'
+	'MF962623|A/swine/Iowa/A02219792/2017|Iowa|02B|delta1a|20170816'
+	'MG132042|A/swine/Texas/A01785298/2017|Texas|02B|cluster_iva|20170920'
+	'MG193880|A/swine/Maryland/A01764005/2017|Maryland|02B|2010.1|20170917'[&!color=#ff0033]
+	'MG547984|A/swine/Iowa/A02134228/2017|Iowa|02B|2010.1|20171018'[&!color=#ff0033]
+	'MG548002|A/swine/Iowa/A02134231/2017|Iowa|02B|2010.1|20171018'[&!color=#ff0033]
+	'MG548012|A/swine/Iowa/A02134233/2017|Iowa|02B|alpha|20171018'
+	'MG548020|A/swine/Ohio/A02134225/2017|Ohio|02B|cluster_iva|20171017'
+	'MG650651|A/swine/Illinois/A02134971/2017|Illinois|02B|delta1a|20171027'
+	'MG681964|A/swine/Iowa/A02136086/2017|Iowa|02B|alpha|20171116'
+	'MG681978|A/swine/Oklahoma/A02136057/2017|Oklahoma|02B|delta1a|20171115'
+	'MG681986|A/swine/Illinois/A02135882/2017|Illinois|02B|alpha|20171103'
+	'MG720190|A/swine/Illinois/A02136719/2017|Illinois|02B|2010.1|20171120'[&!color=#ff0033]
+	'MG739524|A/swine/Minnesota/A01785363/2017|Minnesota|02B|2010.1|20171124'[&!color=#ff0033]
+	'MG763240|A/swine/Iowa/A02138536/2017|Iowa|02B|2010.1|20171203'[&!color=#ff0033]
+	'MG822891|A/swine/Iowa/A02138762/2017|Iowa|02B|2010.1|20171214'[&!color=#ff0033]
+	'MG907120|A/swine/North_Carolina/A01785410/2018|North_Carolina|02B|2010.1|20180105'[&!color=#ff0033]
+	'MG917057|A/swine/North_Carolina/A02140658/2018|North_Carolina|02B|delta1a|20180111'
+	'MG954311|A/swine/Nebraska/A01785418/2018|Nebraska|02B|delta1a|20180112'
+	'MH016407|A/swine/Iowa/A02142411/2018|Iowa|02B|2010.1|20180131'[&!color=#ff0033]
+	'MH037823|A/swine/Illinois/A02142422/2018|Illinois|02B|alpha|20180205'
+	'MH037829|A/swine/Iowa/A02142815/2018|Iowa|02B|alpha|20180214'
+	'MH157022|A/swine/Minnesota/A01785463/2018|Minnesota|02B|2010.1|20180309'[&!color=#ff0033]
+	'MH182110|A/swine/Oklahoma/A01785478/2018|Oklahoma|02B|delta1a|20180321'
+	'MH234401|A/swine/Ohio/OH185253/2018|Ohio|02B|2010.1|20180309'[&!color=#ff0033]
+	'MH234425|A/swine/Ohio/OH187450/2018|Ohio|02B|cluster_iva|20180402'
+	'MH234449|A/swine/Ohio/OH187969/2018|Ohio|02B|2010.1|20180406'[&!color=#ff0033]
+	'MH371213|A/swine/Iowa/A02158150/2018|Iowa|02B|delta1a|20180426'
+	'MH396707|A/swine/Iowa/A02158357/2018|Iowa|02B|2010.1|20180430'[&!color=#ff0033]
+	'MH444850|A/swine/Illinois/A02158521/2018|Illinois|02B|alpha|20180510'
+	'MH444856|A/swine/Iowa/A02158520/2018|Iowa|02B|2010.1|20180508'[&!color=#ff0033]
+	'MH444860|A/swine/Indiana/A02158356/2018|Indiana|02B|alpha|20180430'
+	'MH445467|A/swine/Kansas/A01785533/2018|Kansas|02B|alpha|20180507'
+	'MH463569|A/swine/Indiana/A01812277/2018|Indiana|02B|delta1a|20180507'
+	'MH463591|A/swine/Iowa/A02158714/2018|Iowa|02B|2010.1|20180517'[&!color=#ff0033]
+	'MH496714|A/swine/North_Carolina/A01785542/2018|North_Carolina|02B|2010.1|20180521'[&!color=#ff0033]
+	'MH546134|A/swine/Minnesota/A01785566/2018|Minnesota|02B|2010.1|20180606'[&!color=#ff0033]
+	'MH551237|A/swine/Indiana/A01812257/2017|Indiana|02B|delta1a|20170314'
+	'MH595467|A/swine/Iowa/A02170162/2018|Iowa|02B|2010.1|20180613'[&!color=#ff0033]
+	'MH680938|A/swine/North_Carolina/A01785582/2018|North_Carolina|02B|2010.1|20180705'[&!color=#ff0033]
+	'MH714795|A/swine/North_Carolina/A01785581/2018|North_Carolina|02B|2010.1|20180705'[&!color=#ff0033]
+	'MH819311|A/swine/Iowa/A02255010/2018|Iowa|02B|2010.1|20180806'[&!color=#ff0033]
+	'MH819319|A/swine/North_Carolina/A02254950/2018|North_Carolina|02B|2010.1|20180809'[&!color=#ff0033]
+	'MH910348|A/swine/Missouri/A02256554/2018|Missouri|02B|2010.1|20180813'[&!color=#ff0033]
+	'MH937426|A/swine/Nebraska/A02256796/2018|Nebraska|02B|delta1b|20180822'
+	'MH938199|A/swine/Illinois/A02257028/2018|Illinois|02B|alpha|20180828'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('JX163279|A/swine/Indiana/A01203509/2012|Indiana|02B|cluster_iva|20120509':5.3E-4,(('JX549147|A/swine/Indiana/A00968386/2012|Indiana|02B|cluster_iva|20120726':7.2E-4,'KJ452378|A/swine/Iowa/13H075/2013|Iowa|02B|cluster_iva|20130828':7.2E-4):5.3E-4,(((('KJ604998|A/swine/Indiana/A01410396/2014|Indiana|02B|cluster_iva|20140301':0.00143,('KF922763|A/swine/North_Carolina/A01290722/2013|North_Carolina|02B|cluster_iva|20131101':5.3E-4,'KF922802|A/swine/North_Carolina/A01290717/2013|North_Carolina|02B|cluster_iva|20131101':5.3E-4):5.3E-4):0.00575,((((('KC134401|A/swine/Iowa/A01203863/2012|Iowa|02B|cluster_iva|20121001':7.2E-4,('KX008715|A/swine/Iowa/A01732123/2016|Iowa|02B|gamma|20160218':0.01459,((('KF179126|A/swine/Indiana/A01260284/2013|Indiana|02B|cluster_iva|20130430':5.3E-4,('KJ470683|A/swine/Indiana/A01260416/2013|Indiana|02B|cluster_iva|20131111':0.01102,('KP341358|A/swine/Arkansas/A01840096/2014|Arkansas|02B|cluster_iva|20141209':0.00145,('KP461655|A/swine/Arkansas/A01555162/2014|Arkansas|02B|cluster_iva|20141211':5.3E-4,'KY631516|A/swine/Indiana/A01672517/2017|Indiana|02B|cluster_iva|20170120':0.01165):7.0E-4):0.00651):5.3E-4):7.2E-4,((('KT595713|A/swine/Iowa/A02025416/2015|Iowa|02B|delta1b|20150727':0.01028,('KM879432|A/swine/Iowa/A01476426/2014|Iowa|02B|cluster_iva|20140917':0.00217,('KU936907|A/swine/Illinois/A01749812/2016|Illinois|02B|cluster_iva|20160229':0.00143,'KU242657|A/swine/Illinois/A01797275/2015|Illinois|02B|cluster_iva|20151102':7.2E-4):0.00728):0.00291):4.9E-4,('KJ493384|A/swine/Illinois/A01409994/2014|Illinois|02B|cluster_iva|20140201':5.3E-4,(((('KM005111|A/swine/Minnesota/A01501491/2014|Minnesota|02B|delta1a|20140527':0.00144,((('KU517768|A/swine/Minnesota/A01941555/2015|Minnesota|02B|delta1a|20151216':0.00588,'KT952010|A/swine/Minnesota/A01940683/2015|Minnesota|02B|delta1a|20151001':0.00808):6.4E-4,'KM853024|A/swine/Minnesota/A01565282/2014|Minnesota|02B|delta1a|20140922':0.00144):5.3E-4,('KT924266|A/swine/Iowa/A01944211/2015|Iowa|02B|cluster_iva|20150928':0.00652,('KY211011|A/swine/Illinois/A01782582/2016|Illinois|02B|delta1a|20161021':0.01165,((((('KT000065|A/swine/Oklahoma/A02076844/2015|Oklahoma|02B|delta1a|20150505':7.1E-4,('KX197535|A/swine/Illinois/A01895430/2016|Illinois|02B|delta1a|20160413':5.3E-4,('KY744625|A/swine/Illinois/A01672717/2017|Illinois|02B|delta1a|20170207':5.3E-4,'KY873241|A/swine/Iowa/A01932579/2017|Iowa|02B|delta1a|20170228':0.00388):0.00145):0.00479):5.3E-4,(((('KT580862|A/swine/Indiana/A01260888/2015|Indiana|02B|delta1a|20150504':0.0,'KT580886|A/swine/Indiana/A01260906/2015|Indiana|02B|delta1a|20150520':0.0):5.3E-4,(('MH182110|A/swine/Oklahoma/A01785478/2018|Oklahoma|02B|delta1a|20180321':0.00524,'MG681978|A/swine/Oklahoma/A02136057/2017|Oklahoma|02B|delta1a|20171115':0.00131):0.00889,'KU204734|A/swine/Indiana/A01812040/2015|Indiana|02B|delta1a|20151026':7.2E-4):7.2E-4):7.2E-4,(('KU143659|A/swine/Illinois/A01945741/2015|Illinois|02B|delta1a|20151020':0.00144,((('KU752376|A/swine/Oklahoma/A01730659/2016|Oklahoma|02B|delta1a|20160128':7.2E-4,('KY802115|A/swine/Illinois/A01672520/2017|Illinois|02B|delta1a|20170124':0.00581,('KU877354|A/swine/Oklahoma/A01731603/2016|Oklahoma|02B|delta1a|20160212':7.2E-4,('KY413021|A/swine/Oklahoma/A01668938/2016|Oklahoma|02B|delta1a|20161130':0.00352,'KX036680|A/swine/Oklahoma/A01733480/2016|Oklahoma|02B|delta1a|20160306':5.3E-4):5.3E-4):7.1E-4):5.3E-4):0.0035,('KY802105|A/swine/Indiana/A01932255/2017|Indiana|02B|delta1a|20170215':6.0E-4,('KT924281|A/swine/Illinois/A01945293/2015|Illinois|02B|delta1a|20150928':5.3E-4,(('KU861173|A/swine/Illinois/A01731308/2016|Illinois|02B|delta1a|20160210':5.3E-4,('KX008682|A/swine/Illinois/A01732740/2016|Illinois|02B|delta1a|20160302':5.3E-4,((('MF920403|A/swine/Minnesota/A02219546/2017|Minnesota|02B|delta1a|20170811':7.2E-4,'MF092764|A/swine/Iowa/A02214551/2017|Iowa|02B|delta1a|20170410':5.3E-4):0.00144,('KY413039|A/swine/Iowa/A01668918/2016|Iowa|02B|delta1a|20161129':0.00144,'MF962623|A/swine/Iowa/A02219792/2017|Iowa|02B|delta1a|20170816':0.00216):5.3E-4):0.00217,'KY522888|A/swine/Iowa/A01672046/2017|Iowa|02B|delta1a|20170105':0.00144):5.3E-4):7.2E-4):7.2E-4,('KU306901|A/swine/Illinois/A01749356/2015|Illinois|02B|delta1a|20151117':7.2E-4,'KU171021|A/swine/Illinois/A01749160/2015|Illinois|02B|delta1a|20151027':5.3E-4):7.1E-4):5.3E-4):5.3E-4):0.00291):5.3E-4,('KU217450|A/swine/Illinois/A01749186/2015|Illinois|02B|delta1a|20151102':0.00143,'KU666880|A/swine/Illinois/A01729512/2016|Illinois|02B|delta1a|20160112':0.00362):7.3E-4):5.3E-4):0.0021,('KT274684|A/swine/Arkansas/A02035008/2015|Arkansas|02B|delta1a|20150622':5.3E-4,((('MG917057|A/swine/North_Carolina/A02140658/2018|North_Carolina|02B|delta1a|20180111':0.00219,'MH463569|A/swine/Indiana/A01812277/2018|Indiana|02B|delta1a|20180507':0.00288):0.00662,('MG954311|A/swine/Nebraska/A01785418/2018|Nebraska|02B|delta1a|20180112':0.01023,'KX351175|A/swine/Arkansas/A01774259/2016|Arkansas|02B|delta1a|20160426':5.3E-4):0.00216):0.00218,('KT803109|A/swine/Oklahoma/A01770672/2015|Oklahoma|02B|delta1a|20150820':5.3E-4,'KX086564|A/swine/Indiana/A01812189/2016|Indiana|02B|delta1a|20160316':0.00434):7.2E-4):0.00144):6.8E-4):5.3E-4):5.3E-4,((('KX298091|A/swine/Iowa/A01774934/2016|Iowa|02B|delta1a|20160509':0.0029,'KT259331|A/swine/Indiana/A02077934/2015|Indiana|02B|delta1a|20150609':0.0029):7.1E-4,(('KR265525|A/swine/Illinois/A01470861/2015|Illinois|02B|delta1a|20150415':7.1E-4,('KX960195|A/swine/Missouri/A01781220/2016|Missouri|02B|delta1a|20160905':0.00658,'KY631496|A/swine/Iowa/A01672519/2017|Iowa|02B|delta1a|20170120':0.00508):0.00216):5.3E-4,('KX631956|A/swine/Indiana/A01812095/2015|Indiana|02B|delta1a|20151208':0.00217,('KY328154|A/swine/Iowa/A01783001/2016|Iowa|02B|delta1a|20161101':0.00144,(('MH910348|A/swine/Missouri/A02256554/2018|Missouri|02B|2010.1|20180813':0.00653,('MH016407|A/swine/Iowa/A02142411/2018|Iowa|02B|2010.1|20180131':0.00509,('MG548002|A/swine/Iowa/A02134231/2017|Iowa|02B|2010.1|20171018':7.2E-4,((('MG193880|A/swine/Maryland/A01764005/2017|Maryland|02B|2010.1|20170917':0.00216,'MF872674|A/swine/Ohio/A01354316/2017|Ohio|02B|delta2|20170813':0.00144):5.3E-4,(('MH444856|A/swine/Iowa/A02158520/2018|Iowa|02B|2010.1|20180508':0.00357,('MH819319|A/swine/North_Carolina/A02254950/2018|North_Carolina|02B|2010.1|20180809':0.00285,('MH714795|A/swine/North_Carolina/A01785581/2018|North_Carolina|02B|2010.1|20180705':7.2E-4,('MH496714|A/swine/North_Carolina/A01785542/2018|North_Carolina|02B|2010.1|20180521':7.2E-4,'MH680938|A/swine/North_Carolina/A01785582/2018|North_Carolina|02B|2010.1|20180705':5.3E-4):5.3E-4):0.0015):0.00145):7.7E-4,('MH234449|A/swine/Ohio/OH187969/2018|Ohio|02B|2010.1|20180406':7.3E-4,'MH234401|A/swine/Ohio/OH185253/2018|Ohio|02B|2010.1|20180309':0.00144):0.00144):5.3E-4):5.3E-4,'MF801469|A/swine/Ohio/A01354315/2017|Ohio|02B|2010.1|20170804':7.3E-4):7.2E-4):5.3E-4):7.2E-4):7.3E-4,('MG763240|A/swine/Iowa/A02138536/2017|Iowa|02B|2010.1|20171203':0.0029,('MF150347|A/swine/Illinois/A02214843/2017|Illinois|02B|2010.1|20170414':5.3E-4,('MG720190|A/swine/Illinois/A02136719/2017|Illinois|02B|2010.1|20171120':0.0058,'MF613965|A/swine/Iowa/A02218163/2017|Iowa|02B|2010.1|20170621':0.00362):5.3E-4):5.3E-4):7.2E-4):0.00145):0.00363):7.2E-4):5.3E-4):7.2E-4,(('KY328156|A/swine/Iowa/A01668208/2016|Iowa|02B|delta1a|20161110':0.00434,('MF092726|A/swine/Michigan/A02214665/2017|Michigan|02B|delta1a|20170328':0.00654,'KT356704|A/swine/Iowa/A02025170/2015|Iowa|02B|delta1a|20150707':7.2E-4):5.3E-4):0.00216,('KX185877|A/swine/Illinois/A01895323/2016|Illinois|02B|delta1a|20160411':7.0E-4,'MH551237|A/swine/Indiana/A01812257/2017|Indiana|02B|delta1a|20170314':0.00291):0.00655):5.3E-4):5.3E-4):5.3E-4):5.3E-4,('MG650651|A/swine/Illinois/A02134971/2017|Illinois|02B|delta1a|20171027':0.00871,('KT825098|A/swine/Iowa/A02025827/2015|Iowa|02B|delta1a|20150828':0.00146,'KU529124|A/swine/Indiana/A01727837/2015|Indiana|02B|delta1a|20151214':0.00506):7.1E-4):5.3E-4):5.3E-4,('KP901331|A/swine/Illinois/A01478741/2015|Illinois|02B|delta1a|20150204':0.0,'KP901346|A/swine/Illinois/A01555516/2015|Illinois|02B|delta1a|20150131':0.0):5.3E-4):5.3E-4,'KR012363|A/swine/Oklahoma/A01841022/2015|Oklahoma|02B|delta1a|20150224':7.2E-4):7.3E-4):0.00433):5.3E-4):5.3E-4):5.3E-4,('KP242034|A/swine/South_Dakota/A01483859/2014|South_Dakota|02B|delta1a|20141114':0.00289,'KM885182|A/swine/Minnesota/A01482977/2014|Minnesota|02B|delta1a|20140915':7.3E-4):5.3E-4):7.1E-4,'KP662591|A/swine/Minnesota/A01469329/2014|Minnesota|02B|cluster_iva|20141218':0.00407):0.0017,'KJ154113|A/swine/Illinois/A01409657/2013|Illinois|02B|cluster_iva|20131218':7.2E-4):5.3E-4):5.3E-4):0.00289,((('KU529108|A/swine/Pennsylvania/A01727958/2015|Pennsylvania|02B|cluster_iva|20151215':0.00793,((('KT000080|A/swine/Iowa/A02076873/2015|Iowa|02B|cluster_iva|20150508':0.00506,('KP186032|A/swine/North_Carolina/A01476730/2014|North_Carolina|02B|cluster_iva|20141013':5.3E-4,('KP137754|A/swine/North_Carolina/A01476688/2014|North_Carolina|02B|cluster_iva|20141010':0.00144,'KT165018|A/swine/Indiana/A01260863/2015|Indiana|02B|cluster_iva|20150403':0.00215):5.3E-4):5.3E-4):0.00216,(('KT995487|A/swine/North_Carolina/A01945452/2015|North_Carolina|02B|cluster_iva|20151006':5.3E-4,'KT803124|A/swine/North_Carolina/A02025678/2015|North_Carolina|02B|cluster_iva|20150821':7.2E-4):0.00216,('KM879420|A/swine/North_Carolina/A01476427/2014|North_Carolina|02B|cluster_iva|20140917':7.2E-4,('KP137736|A/swine/North_Carolina/A01476719/2014|North_Carolina|02B|cluster_iva|20141014':0.00144,'KU379620|A/swine/Iowa/A01796466/2015|Iowa|02B|cluster_iva|20151119':0.00578):5.3E-4):5.3E-4):7.2E-4):5.3E-4,('KP901337|A/swine/North_Carolina/A01555522/2015|North_Carolina|02B|cluster_iva|20150203':0.00216,('KU160679|A/swine/North_Carolina/A01945823/2015|North_Carolina|02B|cluster_iva|20151023':0.00727,('KP233684|A/swine/North_Carolina/A01476848/2014|North_Carolina|02B|cluster_iva|20141021':7.3E-4,'KP233690|A/swine/North_Carolina/A01476883/2014|North_Carolina|02B|cluster_iva|20141030':7.1E-4):0.00432):5.3E-4):6.9E-4):7.1E-4):5.3E-4,(('KU143653|A/swine/North_Carolina/A01945728/2015|North_Carolina|02B|cluster_iva|20151019':0.00724,('KJ859571|A/swine/North_Carolina/A01410691/2014|North_Carolina|02B|cluster_iva|20140401':7.2E-4,('KM821598|A/swine/North_Carolina/A01478000/2014|North_Carolina|02B|cluster_iva|20140829':0.00145,'KM879438|A/swine/North_Carolina/A01476419/2014|North_Carolina|02B|cluster_iva|20140917':0.00216):0.00289):5.3E-4):7.1E-4,('KP186053|A/swine/North_Carolina/A01476757/2014|North_Carolina|02B|cluster_iva|20141019':0.00357,'KP288143|A/swine/North_Carolina/A01477954/2014|North_Carolina|02B|cluster_iva|20141121':0.00287):5.3E-4):5.3E-4):5.3E-4,((('KU143605|A/swine/Minnesota/A01940765/2015|Minnesota|02B|cluster_iva|20151019':0.0,'KU143599|A/swine/Minnesota/A01940814/2015|Minnesota|02B|cluster_iva|20151019':0.0):0.01015,'KP019666|A/swine/Iowa/A01476428/2014|Iowa|02B|cluster_iva|20140916':0.00221):7.0E-4,(('KT804001|A/swine/Indiana/A01260933/2015|Indiana|02B|gamma|20150705':0.00215,'KT965427|A/swine/Indiana/A01945616/2015|Indiana|02B|gamma|20151002':0.0058):0.00218,('KP662623|A/swine/Indiana/A01840253/2014|Indiana|02B|cluster_iva|20141209':7.1E-4,('KY328186|A/swine/Ohio/A01668213/2016|Ohio|02B|delta1a|20161109':0.00144,(('KY859934|A/swine/Iowa/A01932254/2017|Iowa|02B|delta1a|20170217':0.00151,'KY767726|A/swine/Iowa/A01678481/2017|Iowa|02B|delta1a|20170217':6.4E-4):0.00803,('MF150343|A/swine/Indiana/A02214844/2017|Indiana|02B|cluster_iva|20170403':0.0022,('MH234425|A/swine/Ohio/OH187450/2018|Ohio|02B|cluster_iva|20180402':0.00215,'MG548020|A/swine/Ohio/A02134225/2017|Ohio|02B|cluster_iva|20171017':5.3E-4):0.00725):6.9E-4):5.3E-4):0.00146):7.4E-4):0.00358):5.3E-4):0.00144):7.1E-4):7.2E-4,(('KX960217|A/swine/North_Carolina/A01781579/2016|North_Carolina|02B|cluster_iva|20160920':0.00217,('KU143647|A/swine/North_Carolina/A01945726/2015|North_Carolina|02B|cluster_iva|20151019':5.3E-4,'KU160764|A/swine/North_Carolina/A01945939/2015|North_Carolina|02B|cluster_iva|20151024':7.2E-4):7.0E-4):0.0147,(('MH371213|A/swine/Iowa/A02158150/2018|Iowa|02B|delta1a|20180426':0.01641,'KT995476|A/swine/Kansas/A01377582/2015|Kansas|02B|cluster_iva|20150810':0.00815):0.01037,('KP412356|A/swine/Oklahoma/A01567195/2014|Oklahoma|02B|cluster_iva|20141218':5.3E-4,('KU558792|A/swine/Oklahoma/A01728023/2015|Oklahoma|02B|cluster_iva|20151216':0.00513,'MG132042|A/swine/Texas/A01785298/2017|Texas|02B|cluster_iva|20170920':0.01247):0.0021):0.006):0.0014):5.3E-4):7.1E-4):5.3E-4):5.3E-4,('KC261896|A/swine/Indiana/A00968394/2012|Indiana|02B|cluster_iva|20120806':0.00144,(('KF982064|A/swine/South_Dakota/A01366093/2013|South_Dakota|02B|cluster_iva|20131203':0.0,'KJ588373|A/swine/South_Dakota/A01480341/2014|South_Dakota|02B|cluster_iva|20140227':0.0):5.3E-4,('KF986879|A/swine/Minnesota/A01409450/2013|Minnesota|02B|cluster_iva|20131101':0.0028,('KJ588370|A/swine/Iowa/A01480042/2014|Iowa|02B|cluster_iva|20140207':0.00506,'KF918424|A/swine/Iowa/A01365906/2013|Iowa|02B|cluster_iva|20131115':5.3E-4):5.3E-4):0.00288):6.3E-4):5.3E-4):5.3E-4,'JX964956|A/swine/Ohio/A01133464/2012|Ohio|02B|cluster_iva|20120803':5.3E-4):5.3E-4,(('KX356674|A/swine/Minnesota/A01943452/2016|Minnesota|02B|delta1b|20160509':0.01014,(('KJ128351|A/swine/Nebraska/A01395901/2013|Nebraska|02B|cluster_iva|20131210':0.0,'KJ128360|A/swine/Nebraska/A01393702/2013|Nebraska|02B|cluster_iva|20131216':0.0,'KJ484599|A/swine/Kansas/A01377165/2013|Kansas|02B|cluster_iva|20131202':0.0):5.3E-4,('KM576120|A/swine/Kansas/A01377352/2014|Kansas|02B|gamma|20140908':0.00287,'KJ889293|A/swine/South_Dakota/A01481392/2014|South_Dakota|02B|cluster_iva|20140513':0.00505):5.3E-4):5.3E-4):0.00432,'KJ579978|A/swine/Indiana/A01260462/2014|Indiana|02B|cluster_iva|20140102':0.00869):5.3E-4):5.3E-4,('KR611169|A/swine/Nebraska/A01847184/2015|Nebraska|02B|cluster_iva|20150407':0.0029,('KY744601|A/swine/Nebraska/A01672826/2017|Nebraska|02B|cluster_iva|20170201':0.00726,'KU311467|A/swine/Kansas/A01377619/2015|Kansas|02B|cluster_iva|20151022':0.00657):6.9E-4):0.00214):7.1E-4):5.0E-4,(('KF179120|A/swine/Indiana/A01260280/2013|Indiana|02B|cluster_iva|20130419':0.0035,('KC535004|A/swine/Iowa/A01432308/2012|Iowa|02B|cluster_iva|20121218':5.3E-4,(('KP461661|A/swine/Missouri/A01840170/2014|Missouri|02B|2010.1|20141215':7.6E-4,('KU954083|A/swine/Iowa/A01942648/2016|Iowa|02B|2010.1|20160229':0.00288,'KU517774|A/swine/Minnesota/A01941510/2015|Minnesota|02B|2010.1|20151209':5.3E-4):0.00359):0.00869,('KJ130103|A/swine/Iowa/A01290867/2013|Iowa|02B|cluster_iva|20131101':7.2E-4,('KT803112|A/swine/Illinois/A01770678/2015|Illinois|02B|cluster_iva|20150824':0.00213,'KU666862|A/swine/Illinois/A01729658/2016|Illinois|02B|cluster_iva|20160114':0.00146):0.0058):7.1E-4):0.00135):0.00143):8.1E-4,('KC849380|A/swine/North_Carolina/A01432584/2013|North_Carolina|02B|cluster_iva|20130301':7.1E-4,'KC534998|A/swine/Indiana/A01432300/2012|Indiana|02B|cluster_iva|20121213':7.2E-4):0.00361):5.3E-4):5.3E-4,(((('KF437329|A/swine/Minnesota/A01351603/2013|Minnesota|02B|cluster_iva|20130711':7.8E-4,('KJ154081|A/swine/Illinois/A01409735/2013|Illinois|02B|cluster_iva|20131230':5.3E-4,('KJ437582|A/swine/Illinois/A01411343/2014|Illinois|02B|gamma|20140101':5.3E-4,(('KP972102|A/swine/Illinois/A01462644/2015|Illinois|02B|cluster_iva|20150129':0.00215,('KM593173|A/swine/Illinois/A01503899/2014|Illinois|02B|cluster_iva|20140827':5.3E-4,('KR821150|A/swine/Illinois/A01820364/2015|Illinois|02B|cluster_iva|20150414':0.00369,'KX197506|A/swine/Illinois/A01895671/2016|Illinois|02B|cluster_iva|20160418':0.00955):0.00136):7.2E-4):5.3E-4,(('KM102652|A/swine/Illinois/A01502060/2014|Illinois|02B|cluster_iva|20140618':0.0,'KM100148|A/swine/Illinois/A01501987/2014|Illinois|02B|cluster_iva|20140618':0.0):5.3E-4,(('KP842744|A/swine/Illinois/A01840336/2015|Illinois|02B|cluster_iva|20150112':7.2E-4,('KX867525|A/swine/Iowa/A01778875/2016|Iowa|02B|delta1b|20160822':0.00725,('KU513671|A/swine/Illinois/A01727602/2015|Illinois|02B|cluster_iva|20151211':7.1E-4,'KU513695|A/swine/Illinois/A01727532/2015|Illinois|02B|cluster_iva|20151210':5.3E-4):0.00146):7.0E-4):0.00216,'KM102655|A/swine/Illinois/A01502053/2014|Illinois|02B|cluster_iva|20140618':7.1E-4):5.3E-4):5.3E-4):7.1E-4):7.2E-4):0.00355):0.00135,('KC576836|A/swine/Minnesota/A01280462/2013|Minnesota|02B|cluster_iva|20130123':0.00146,('KF960693|A/swine/Minnesota/A01366050/2013|Minnesota|02B|cluster_iva|20131127':7.4E-4,('KU229925|A/swine/Iowa/A01944835/2015|Iowa|02B|cluster_iva|20151027':0.00729,'KJ949136|A/swine/Iowa/A01501240/2014|Iowa|02B|cluster_iva|20140519':7.2E-4):0.00286):0.00144):5.2E-4):0.00137,('KC751555|A/swine/Kansas/13105721a/2013|Kansas|02B|cluster_iva|20130220':0.00118,(('KJ813428|A/swine/North_Carolina/A01410672/2014|North_Carolina|02B|cluster_iva|20140401':0.00215,'KX185844|A/swine/Pennsylvania/A01894999/2016|Pennsylvania|02B|delta2|20160405':0.0118):0.00626,('KF986937|A/swine/North_Carolina/A01409423/2013|North_Carolina|02B|cluster_iva|20131201':0.0043,('KF715153|A/swine/North_Carolina/A01291206/2013|North_Carolina|02B|gamma|20130901':0.00142,'KJ859595|A/swine/North_Carolina/A01410779/2014|North_Carolina|02B|cluster_iva|20140501':0.00509):0.00296):0.00391):7.3E-4):5.3E-4):5.3E-4,('KJ452394|A/swine/Iowa/13H068/2013|Iowa|02B|cluster_iva|20130828':0.00433,('JX494413|A/swine/Indiana/A00968380/2012|Indiana|02B|cluster_iva|20120718':0.00144,('KJ605025|A/swine/Illinois/A01410409/2014|Illinois|02B|cluster_iva|20140301':0.00359,('MF144701|A/swine/Nebraska/A02215046/2017|Nebraska|02B|cluster_iva|20170426':0.01239,('KF998036|A/swine/Illinois/A01427136/2013|Illinois|02B|cluster_iva|20131104':0.00216,('KF874266|A/swine/Illinois/A01394861/2013|Illinois|02B|cluster_iva|20131002':0.00144,(('KM076722|A/swine/Iowa/13H076/2013|Iowa|02B|cluster_iva|20130828':0.0,'KM076738|A/swine/Iowa/13H092/2013|Iowa|02B|cluster_iva|20130828':0.0):5.3E-4,'KM076714|A/swine/Iowa/13H065/2013|Iowa|02B|cluster_iva|20130828':7.2E-4):7.1E-4):5.3E-4):7.0E-4):5.3E-4):0.00144):7.1E-4):5.3E-4):5.3E-4):5.3E-4):5.3E-4,((('KJ493393|A/swine/North_Carolina/A01409981/2014|North_Carolina|02B|cluster_iva|20140201':7.7E-4,('KJ859589|A/swine/Indiana/A01410773/2014|Indiana|02B|cluster_iva|20140501':7.2E-4,'KJ859583|A/swine/North_Carolina/A01410709/2014|North_Carolina|02B|cluster_iva|20140401':5.3E-4):0.005):0.00144,('KP336414|A/swine/Ohio/A01567020/2014|Ohio|02B|cluster_iva|20141210':0.01106,('KF113322|A/swine/North_Carolina/A01432692/2013|North_Carolina|02B|delta2|20130501':7.2E-4,'KF113334|A/swine/North_Carolina/A01432694/2013|North_Carolina|02B|delta2|20130501':7.1E-4):0.00669):5.3E-4):5.3E-4,((('JX422409|A/swine/Minnesota/A01328452/2012|Minnesota|02B|cluster_ivb|20120412':0.00652,('KC445237|A/swine/Minnesota/A01442411/2012|Minnesota|02B|cluster_ivb|20120417':0.01299,(('CY107030|A/swine/Minnesota/A01076196/2010|Minnesota|02B|cluster_ivb|20100228':0.00879,((('JQ756391|A/swine/Minnesota/A01240095/2011|Minnesota|02B|cluster_ivb|20111121':0.00509,('JF833346|A/swine/Iowa/A01049113/2010|Iowa|02B|cluster_ivb|20101122':5.3E-4,'JN652545|A/swine/Nebraska/A01049937/2011|Nebraska|02B|cluster_ivb|20110504':0.00651):6.8E-4):0.00805,(('JQ783093|A/swine/Iowa/A01076632/2010|Iowa|02B|cluster_ivb|20101026':0.0,'JQ783092|A/swine/Iowa/A01076630/2010|Iowa|02B|cluster_ivb|20101026':0.0):0.01044,('KU598282|A/swine/Iowa/A01729216/2016|Iowa|02B|alpha|20160106':5.3E-4,'KX394225|A/swine/Iowa/A01775895/2016|Iowa|02B|alpha|20160525':0.00287):0.02874):0.00266):0.00671,('JQ689094|A/swine/Minnesota/A01047396/2011|Minnesota|02B|cluster_ive|20110113':0.02452,(('MF194392|A/swine/South_Dakota/MT_12_07_2018/2012|South_Dakota|02B|cluster_iv|20120314':0.02078,'MH595467|A/swine/Iowa/A02170162/2018|Iowa|02B|2010.1|20180613':0.04743):0.00621,(('JQ739709|A/swine/Iowa/A01203196/2012|Iowa|02B|cluster_ivd|20120126':0.00657,('JQ689118|A/swine/Missouri/A01047969/2010|Missouri|02B|cluster_ivd|20101214':0.00217,('JQ922362|A/swine/Missouri/A01240016/2011|Missouri|02B|cluster_ivd|20111115':0.00289,'JQ783103|A/swine/Minnesota/A01201894/2011|Minnesota|02B|cluster_ivd|20110705':0.00217):7.1E-4):6.6E-4):0.02073,(('KF179129|A/swine/Indiana/A01260285/2013|Indiana|02B|cluster_ivc|20130430':0.03692,('KY873237|A/swine/Iowa/A01932577/2017|Iowa|02B|alpha|20170227':0.05185,('JX092344|A/swine/Nebraska/A01202501/2011|Nebraska|02B|delta1b|20110810':0.00139,(('KC333083|A/swine/Nebraska/A01277229/2012|Nebraska|02B|delta1b|20121113':5.3E-4,'KC333095|A/swine/Nebraska/A01277245/2012|Nebraska|02B|delta1b|20121113':7.3E-4):5.3E-4,('KC790358|A/swine/Nebraska/A01445765/2013|Nebraska|02B|delta1b|20130225':0.00216,('KC844199|A/swine/Minnesota/A01349281/2013|Minnesota|02B|delta1b|20130308':0.00143,'KF234536|A/swine/Kansas/13112936/2013|Kansas|02B|delta1b|20130401':0.00288):5.3E-4):6.8E-4):0.0066):0.01934):0.00107):0.00237,('KC839569|A/swine/Michigan/A01259034/2012|Michigan|02B|cluster_ivc|20121218':0.00792,'KF791387|A/swine/Illinois/A01290614/2013|Illinois|02B|cluster_ivc|20131001':0.00816):0.01602):0.00117):5.2E-4):0.00129):0.00446):0.00727):0.00585,('JN162015|A/swine/Iowa/A01049317/2010|Iowa|02B|cluster_ivb|20101222':0.0051,('JQ783097|A/swine/Minnesota/A01116200/2011|Minnesota|02B|cluster_ivb|20110829':0.00218,((('MH037829|A/swine/Iowa/A02142815/2018|Iowa|02B|alpha|20180214':0.00809,('MG681986|A/swine/Illinois/A02135882/2017|Illinois|02B|alpha|20171103':0.00289,'MH444850|A/swine/Illinois/A02158521/2018|Illinois|02B|alpha|20180510':0.00434):0.00214):0.01031,(('MH937426|A/swine/Nebraska/A02256796/2018|Nebraska|02B|delta1b|20180822':0.01778,(('KX358875|A/swine/Illinois/A01775416/2016|Illinois|02B|alpha|20160517':7.2E-4,(('MG681964|A/swine/Iowa/A02136086/2017|Iowa|02B|alpha|20171116':0.00424,'KY067450|A/swine/Kansas/A01378017/2016|Kansas|02B|alpha|20161019':5.3E-4):7.2E-4,('MH445467|A/swine/Kansas/A01785533/2018|Kansas|02B|alpha|20180507':0.00725,'KY067447|A/swine/Kansas/A01378016/2016|Kansas|02B|alpha|20160831':5.3E-4):5.3E-4):6.2E-4):7.2E-4,'KX618890|A/swine/Indiana/A01776934/2016|Indiana|02B|alpha|20160620':5.3E-4):0.00446):0.00138,('KX928681|A/swine/Minnesota/A01781045/2016|Minnesota|02B|alpha|20160830':0.00589,('MF073356|A/swine/Nebraska/A01785255/2017|Nebraska|02B|delta1a|20170421':0.00515,'KX279678|A/swine/Minnesota/A01677686/2016|Minnesota|02B|alpha|20160511':0.0021):0.00663):6.8E-4):6.9E-4):0.00507,(((('MH037823|A/swine/Illinois/A02142422/2018|Illinois|02B|alpha|20180205':0.0058,'MH938199|A/swine/Illinois/A02257028/2018|Illinois|02B|alpha|20180828':0.00141):0.00807,('MG548012|A/swine/Iowa/A02134233/2017|Iowa|02B|alpha|20171018':0.00721,(((('KT164881|A/swine/Iowa/A02076879/2015|Iowa|02B|gamma|20150513':7.1E-4,(('KY631510|A/swine/North_Carolina/A01671835/2017|North_Carolina|02B|alpha|20170118':7.3E-4,'KY766075|A/swine/North_Carolina/A01673998/2017|North_Carolina|02B|alpha|20170216':0.00143):0.0036,(('KY328170|A/swine/North_Carolina/A01668190/2016|North_Carolina|02B|alpha|20161111':5.3E-4,'MF144699|A/swine/Pennsylvania/A02214908/2017|Pennsylvania|02B|alpha|20170426':0.00287):0.00287,('MH444860|A/swine/Indiana/A02158356/2018|Indiana|02B|alpha|20180430':0.0065,'MF159363|A/swine/North_Carolina/A02215090/2017|North_Carolina|02B|alpha|20170503':7.0E-4):5.3E-4):7.1E-4):5.3E-4):5.3E-4,'KX380218|A/swine/North_Carolina/A01775722/2016|North_Carolina|02B|alpha|20160519':5.3E-4):5.3E-4,('KX380236|A/swine/North_Carolina/A01775693/2016|North_Carolina|02B|alpha|20160519':0.00143,'KX150784|A/swine/North_Carolina/A01894593/2016|North_Carolina|02B|alpha|20160330':7.1E-4):5.3E-4):5.3E-4,(('KY349114|A/swine/Minnesota/A01678475/2016|Minnesota|02B|2010.1|20161205':6.5E-4,('MG739524|A/swine/Minnesota/A01785363/2017|Minnesota|02B|2010.1|20171124':7.0E-4,'MH157022|A/swine/Minnesota/A01785463/2018|Minnesota|02B|2010.1|20180309':0.0029):0.00368):0.00294,(('KY284569|A/swine/Minnesota/A01783004/2016|Minnesota|02B|2010.1|20161101':5.3E-4,(('MF582525|A/swine/Iowa/A02218170/2017|Iowa|02B|2010.1|20170622':0.00143,'MH463591|A/swine/Iowa/A02158714/2018|Iowa|02B|2010.1|20180517':0.00868):5.3E-4,('MG547984|A/swine/Iowa/A02134228/2017|Iowa|02B|2010.1|20171018':0.00287,'MG822891|A/swine/Iowa/A02138762/2017|Iowa|02B|2010.1|20171214':0.00215):5.3E-4):7.2E-4):5.3E-4,('MG907120|A/swine/North_Carolina/A01785410/2018|North_Carolina|02B|2010.1|20180105':0.00429,(('MH546134|A/swine/Minnesota/A01785566/2018|Minnesota|02B|2010.1|20180606':7.0E-4,'MH819311|A/swine/Iowa/A02255010/2018|Iowa|02B|2010.1|20180806':0.00216):0.00648,('MF471671|A/swine/Iowa/A02217287/2017|Iowa|02B|2010.1|20170616':7.1E-4,'MH396707|A/swine/Iowa/A02158357/2018|Iowa|02B|2010.1|20180430':0.00504):5.3E-4):0.00144):0.00146):0.00143):0.00144):5.3E-4):7.0E-4):0.00495,('KP081632|A/swine/Minnesota/A01566110/2014|Minnesota|02B|alpha|20141017':0.00304,'KU933464|A/swine/Minnesota/A01676072/2016|Minnesota|02B|alpha|20160309':0.00928):0.00216):0.0051,(('KF814103|A/swine/Iowa/13C038/2013|Iowa|02B|cluster_ivb|20130326':0.00215,('KY413037|A/swine/Michigan/A01668934/2016|Michigan|02B|cluster_ivb|20161202':0.01769,('KU204742|A/swine/Indiana/A01260967/2015|Indiana|02B|cluster_ivb|20150824':7.2E-4,('KT889346|A/swine/Iowa/A01945156/2015|Iowa|02B|cluster_ivb|20150922':7.2E-4,('KU379573|A/swine/North_Carolina/A01797533/2015|North_Carolina|02B|cluster_ivb|20151119':7.3E-4,'KY593238|A/swine/Missouri/A01672094/2017|Missouri|02B|cluster_ivb|20170109':0.00363):7.0E-4):7.2E-4):0.00513):0.00432):5.3E-4,(('KF856882|A/swine/Minnesota/A01365586/2013|Minnesota|02B|cluster_ivb|20131030':0.0,'KF888394|A/swine/Minnesota/A01365842/2013|Minnesota|02B|cluster_ivb|20131101':0.0):0.00143,('KP288065|A/swine/Illinois/A01478295/2014|Illinois|02B|beta|20141113':0.00291,'KM186108|A/swine/Illinois/A01475803/2014|Illinois|02B|cluster_ivb|20140617':0.00214):0.00512):7.3E-4):5.3E-4):0.00142):0.00521):0.00657):0.00289):0.00317):8.2E-4):0.00645,('KP186101|A/swine/Minnesota/A01566470/2014|Minnesota|02B|gamma|20140717':0.00655,('JX092589|A/swine/Iowa/A01203104/2011|Iowa|02B|cluster_ivb|20111227':5.3E-4,(('KR010625|A/swine/Iowa/A01470314/2015|Iowa|02B|cluster_ivb|20150309':0.00291,('KT750786|A/swine/Iowa/A01769394/2015|Iowa|02B|cluster_ivb|20150806':0.01089,('KP461610|A/swine/Illinois/A01555180/2014|Illinois|02B|cluster_ivb|20141218':0.00288,('KM503161|A/swine/Indiana/A01260591/2014|Indiana|02B|cluster_ivb|20140716':5.3E-4,('KP461628|A/swine/Arkansas/A01555210/2014|Arkansas|02B|cluster_ivb|20141222':0.00216,('KT099109|A/swine/Iowa/A01822175/2015|Iowa|02B|cluster_ivb|20150518':0.00289,('KT000086|A/swine/Minnesota/A01847108/2015|Minnesota|02B|cluster_ivb|20150403':0.00144,'KM675471|A/swine/Minnesota/A01565076/2014|Minnesota|02B|cluster_ivb|20140910':5.3E-4):5.3E-4):7.2E-4):5.3E-4):5.3E-4):5.3E-4):7.1E-4):0.00504,('KF113319|A/swine/Iowa/A01432680/2013|Iowa|02B|cluster_ivb|20130501':0.00287,('KC139737|A/swine/Minnesota/A01271001/2012|Minnesota|02B|cluster_ivb|20121017':5.3E-4,(('KC149916|A/swine/Minnesota/A01271227/2012|Minnesota|02B|cluster_ivb|20121008':0.00421,('KF772968|A/swine/Minnesota/A01392515/2013|Minnesota|02B|cluster_ivb|20131002':0.00302,(('MF194124|A/swine/Iowa/MT_12_07_4294/2012|Iowa|02B|cluster_ivb|20120831':0.0,'MF194028|A/swine/Iowa/MT_12_07_4289/2012|Iowa|02B|cluster_ivb|20120831':0.0,'MF194768|A/swine/Iowa/MT_12_07_4287/2012|Iowa|02B|cluster_ivb|20120831':0.0,'MF919990|A/swine/Minnesota/MT_13_01_S62/2013|Minnesota|02B|cluster_ivb|20130220':0.0,'MF194804|A/swine/Iowa/MT_12_07_4285/2012|Iowa|02B|cluster_ivb|20120831':0.0,'MF920016|A/swine/Minnesota/MT_13_01_S70/2013|Minnesota|02B|cluster_ivb|20130225':0.0,'MF919975|A/swine/Minnesota/MT_13_01_S89/2013|Minnesota|02B|cluster_ivb|20130220':0.0,'MF919914|A/swine/Minnesota/MT_13_01_S74/2013|Minnesota|02B|cluster_ivb|20130225':0.0,'MF919998|A/swine/Minnesota/MT_13_01_S59/2013|Minnesota|02B|cluster_ivb|20130220':0.0):5.3E-4,'KC992247|A/swine/Minnesota/A01379746/2013|Minnesota|02B|cluster_ivb|20130415':0.00144):0.00131):0.00218):5.3E-4,'KC355814|A/swine/Iowa/A01279512/2012|Iowa|02B|cluster_ivb|20121203':0.00361):5.3E-4):5.3E-4):7.2E-4):5.3E-4):0.00365):5.3E-4):0.00312,'KM027362|A/swine/North_Carolina/A01410920/2014|North_Carolina|02B|delta2|20140501':0.01616):5.3E-4):5.3E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Agency FB";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=325;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Agency FB";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

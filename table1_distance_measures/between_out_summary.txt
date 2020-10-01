@@ -1,0 +1,63 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 10:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (2018) 35:1547-1549
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[Application Info]
+
+	Version                                 = 10.1.7
+	Build                                   = 10200107-x86_64
+	User Interface                          = CommandLine
+	Operating System                        = windows
+
+[General Info]
+
+	Data Type                               = nucleotide (non-coding)
+	No. of Taxa                             =     4246
+	No. of Sites                            =     1490
+	Data File                               = 'master.aln.fasta'
+	Settings File                           = './testbetween_grp_pDist.mao'
+	Command Line                            = C:\Program Files\MEGA-X\megacc.exe -a testbetween_grp_pDist.mao -d master.aln.fasta -g master_groups.txt -o between_out
+
+[Analysis Settings]
+
+	Analysis                                = Distance Estimation
+	Scope                                   = Between group average
+	Variance Estimation Method              = None
+	No. of Bootstrap Replications           = Not Applicable
+	Substitutions Type                      = Nucleotide
+	Model/Method                            = Maximum Composite Likelihood
+	Fixed Transition/Transversion Ratio     = Not Applicable
+	Substitutions to Include                = d: Transitions + Transversions
+	Rates among Sites                       = Uniform Rates
+	Gamma Parameter                         = Not Applicable
+	Pattern among Lineages                  = Same (Homogeneous)
+	Gaps/Missing Data Treatment             = Pairwise deletion
+	Site Coverage Cutoff (%)                = Not Applicable
+	Select Codon Positions                  = 1st, 2nd, 3rd, Non-Coding
+	Genetic Code Table                      = Not Applicable
+	Genetic Code                            = Not Applicable
+	Has Time Limit                          = False
+	Maximum Execution Time                  = -1
+	datatype                                = snNucleotide
+	containsCodingNuc                       = True
+	MissingBaseSymbol                       = ?
+	IdenticalBaseSymbol                     = .
+	GapSymbol                               = -
+	Labelled Sites                          = All Sites
+	Labels to Include                       = 
+
+[Analysis Statistics]
+
+	Start Time                              = 2/4/2020 17:07:41
+	End Time                                = 2/4/2020 17:10:05
+	Execution Time                          =  143.243 (seconds)
+	Peak Memory Used(Working Set)           =  476.652 (MB)

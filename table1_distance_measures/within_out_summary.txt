@@ -1,0 +1,54 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 10:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (2018) 35:1547-1549
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[General Info]
+
+	Data Type                               = nucleotide (non-coding)
+	No. of Taxa                             =     4246
+	No. of Sites                            =     1410
+	Data File                               = 'master.aln.fasta'
+	Settings File                           = './within_grp_pDist.mao'
+	Command Line                            = C:\Program Files\MEGA-X\megacc.exe -a within_grp_pDist.mao -d master.aln.fasta -g master_groups.txt -o out.file
+
+[Analysis Settings]
+
+	Analysis                                = Distance Estimation
+	Scope                                   = Within group average
+	Variance Estimation Method              = None
+	No. of Bootstrap Replications           = Not Applicable
+	Substitutions Type                      = Nucleotide
+	Model/Method                            = p-distance
+	Fixed Transition/Transversion Ratio     = Not Applicable
+	Substitutions to Include                = d: Transitions + Transversions
+	Rates among Sites                       = Gamma Distributed (G)
+	Gamma Parameter                         = 0.50
+	Pattern among Lineages                  = Same (Homogeneous)
+	Gaps/Missing Data Treatment             = Partial deletion
+	Site Coverage Cutoff (%)                = 50
+	Select Codon Positions                  = 1st, 2nd, 3rd, Non-Coding
+	Genetic Code Table                      = Not Applicable
+	Genetic Code                            = Not Applicable
+	Has Time Limit                          = False
+	Maximum Execution Time                  = -1
+	datatype                                = snNucleotide
+	containsCodingNuc                       = True
+	MissingBaseSymbol                       = ?
+	IdenticalBaseSymbol                     = .
+	GapSymbol                               = -
+
+[Analysis Statistics]
+
+	Start Time                              = 2/4/2020 16:44:49
+	End Time                                = 2/4/2020 16:45:29
+	Execution Time                          =   39.755 (seconds)
+	Peak Memory Used(Working Set)           =  167.758 (MB)

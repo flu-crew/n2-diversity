@@ -1,0 +1,42 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+scale(civf.ac)                                    0.147   45684      2552     0.06     0.2324      
+scale(civf.ag)                                    0.253   45716      2548     0.06     0.234       
+scale(civf.at)                                    0.179   46173      2712     0.06     0.2331      
+scale(civf.cg)                                    0.122   45639      2654     0.06     0.2327      
+scale(civf.gt)                                    0.141   45572      2659     0.06     0.2339      
+civf.frequencies                                  0.043   45613      2661     0.06     0.2343      
+scale(civf.alpha)                                 0.266   45542      2371     0.05     0.2339      
+scale(d1b.ac)                                     0.159   45931      3098     0.07     0.2341      
+scale(d1b.ag)                                     0.351   45882      3026     0.07     0.2333      
+scale(d1b.at)                                     0.183   46020      3028     0.07     0.2339      
+scale(d1b.cg)                                     0.136   45752      3028     0.07     0.2331      
+scale(d1b.gt)                                     0.129   45944      3107     0.07     0.2351      
+d1b.frequencies                                   0.065   45674      3036     0.07     0.2341      
+scale(d1b.alpha)                                  0.15    46049      2885     0.06     0.2348      
+scale(civf.ucld.mean)                             0.42    137296     7232     0.05     0.2334      
+scale(civf.ucld.stdev)                            0.787   136817     7167     0.05     0.2346      
+scale(d1b.ucld.mean)                              0.569   137523     8249     0.06     0.2339      
+scale(d1b.ucld.stdev)                             0.114   137663     8255     0.06     0.2339      
+subtreeSlide(civf.treeModel)                      0.458   687407     27670    0.04     0.2343      
+Narrow Exchange(civf.treeModel)                           688012     19038    0.03     0.2254      
+Wide Exchange(civf.treeModel)                             136730     1448     0.01     0.0217      
+wilsonBalding(civf.treeModel)                             137286     4797     0.03     0.0208      
+scale(civf.treeModel.rootHeight)                  0.63    137881     6196     0.04     0.2338      
+uniform(nodeHeights(civf.treeModel))                      1376218    64777    0.05     0.4315      
+subtreeSlide(d1b.treeModel)                       0.561   688325     30004    0.04     0.2343      
+Narrow Exchange(d1b.treeModel)                            687041     18454    0.03     0.2505      
+Wide Exchange(d1b.treeModel)                              137252     1251     0.01     0.0221      
+wilsonBalding(d1b.treeModel)                              137077     5460     0.04     0.0345      
+scale(d1b.treeModel.rootHeight)                   0.728   137434     4991     0.04     0.2337      
+uniform(nodeHeights(d1b.treeModel))                       1373999    71295    0.05     0.5933      
+scale(exponential.popSize)                        0.267   137726     4559     0.03     0.2337      
+exponential.growthRate                            0.374   136947     4538     0.03     0.2338      
+up:civf.ucld.mean down:nodeHeights(civf.treeModel) 0.995   138068     4898     0.04     0.233       
+swapOperator(civf.branchRates.categories)                 458683     19341    0.04     0.3594      
+uniformInteger(civf.branchRates.categories)               459394     18457    0.04     0.4218      
+up:d1b.ucld.mean down:nodeHeights(d1b.treeModel)  0.976   137372     5513     0.04     0.2355      
+swapOperator(d1b.branchRates.categories)                  458974     21550    0.05     0.8525      
+uniformInteger(d1b.branchRates.categories)                457684     20450    0.04     0.8969      
+
