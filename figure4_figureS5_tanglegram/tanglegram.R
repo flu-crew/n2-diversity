@@ -1,18 +1,18 @@
 #Section for instlaling rerq packages. Uncomment as needed.
 #install.packages("dendextend")
 #install.packages("ape")
-source("https://bioconductor.org/biocLite.R")
-biocLite("DECIPHER")
+#source("https://bioconductor.org/biocLite.R")
+#biocLite("DECIPHER")
 
 #Load libraries
-library(dendextend) # for comparing two dendrograms
+#library(dendextend) # for comparing two dendrograms
 library(DECIPHER)   # used for loading in newick format trees
 library(ape)        #general purpose
 library(reshape2)
 library(ggplot2)
 
 #load source data, our HA and N2 trees
-dendHA <- ReadDendrogram("ha_prepped2.tre", internalLabels = FALSE)
+dendHA <- ReadDendrogram("ha_prepped3.tre", internalLabels = FALSE)
 dendNA <- ReadDendrogram("na_prepped2.tre", internalLabels = FALSE)
 
 #set label colors trees
@@ -34,27 +34,30 @@ labels_colors(dendNA) <- na_lab
 #dl <- dendlist(highlight_branches_col(dendHA, viridis(100)), highlight_branches_col(dendNA, rev(magma(100))))
 dl <- dendlist(color_branches(dendHA, clusters = ha_lab), color_branches(dendNA, clusters = na_lab))
 #tanglegram(dendHA, dendNA, main_left = "HA", main_right = "NA", lwd = 1, type = "r", remove_nodePar = TRUE,
-#           highlight_distinct_edges = FALSE, highlight_branches_lwd=FALSE, common_subtrees_color_lines = TRUE, faster = FALSE)
+#           highlight_distinct_edges = FALSE, highlight_branches_lwd=FALSE, common_subtrees_color_lines = TRUE, faster = TRUE)
 tanglegram(dl, main_left = "HA", main_right = "N2", lwd = 1, type = "r", remove_nodePar = TRUE, 
            highlight_distinct_edges = FALSE, highlight_branches_lwd=FALSE, common_subtrees_color_lines = TRUE, 
            edge.lwd = 2,lab.cex = 1, faster = TRUE)
 
 #Reset colors
 test = ha_lab
-test = replace(test, test == 1, rgb(206,57,154, max = 255))
-test = replace(test, test == 2, rgb(93,132,0, max = 255)) 
-test = replace(test, test == 3, rgb(0,148,79, max = 255))
-test = replace(test, test == 4, rgb(0,150,129, max = 255))
-test = replace(test, test == 5, rgb(0,147,169, max = 255))
-test = replace(test, test == 6, rgb(153,88,212, max = 255))
-test = replace(test, test == 7, rgb(68,115,215, max = 255))
-test = replace(test, test == 8, rgb(0,136,199, max = 255))
-test = replace(test, test == 9, rgb(192,63,190, max = 255))
-test = replace(test, test == 10, rgb(168,107,0, max = 255))
-test = replace(test, test == 11, rgb(190,90,38, max = 255))
-test = replace(test, test == 12, rgb(204,71,107, max = 255))
-test = replace(test, test == 13, rgb(138,121,0, max = 255)) 
-test = replace(test, test == 14, rgb(0,141,0, max = 255)) 
+test = replace(test, test == 14, rgb(192, 63, 190, max = 255))#pink
+test = replace(test, test == 13, rgb(68, 115, 215, max = 255)) #olive greener
+test = replace(test, test == 6, rgb(93, 132, 0, max = 255)) #brighter green
+test = replace(test, test == 11, rgb(0, 147,169, max = 255))#seafoam green
+test = replace(test, test == 10, rgb(0,136, 199, max = 255))#dark cyan
+test = replace(test, test == 9, rgb(0,141,0, max = 255)) #purple blue
+test = replace(test, test == 3, rgb(206, 57, 154, max = 255)) #SAPPHIRE BLUE
+test = replace(test, test == 7, rgb(138,121,0, max = 255))  #sea blue
+test = replace(test, test == 12, rgb(0, 150, 129, max = 255)) #bright purple
+test = replace(test, test == 8, rgb(168,107,0, max = 255))  #good bright orange
+test = replace(test, test == 5, rgb(190,90,38, max = 255))  #good
+test = replace(test, test == 4, rgb(204,71,107, max = 255)) #good
+test = replace(test, test == 2, rgb(153,88,212, max = 255)) #olive
+test = replace(test, test == 1, rgb(0,141,0, max = 255))    #good
+
+#using tiff() and dev.off
+tiff('test.tiff', units="in", width=11, height=8.5, res=300, compression = 'lzw')
 
 #FIGURE3
 tanglegram(dl, 
@@ -70,7 +73,10 @@ tanglegram(dl,
            common_subtrees_color_lines = FALSE, 
            edge.lwd = 2,
            lab.cex = 1, 
+           margin_inner = 0.5,#Hide labels
            faster = FALSE)
+
+dev.off()
 
 #Print entanglement
 dl %>% entanglement # lower is better

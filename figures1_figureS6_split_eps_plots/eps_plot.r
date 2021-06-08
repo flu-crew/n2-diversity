@@ -110,6 +110,9 @@ ggplot(n2_98A, aes(x = Time, y = Median)) +
 ####################
 # MONOKAI Figure 1 #
 ####################
+#using tiff() and dev.off
+tiff('figures1_original.tiff', units="in", width=11, height=9, res=300, compression = 'lzw')
+
 #Data starts in August 2009, or at 2009.66. Scaled at 800x680
 ggplot(n2_98A, aes(x = Time, y = Median)) +
   geom_ribbon(aes(ymin = Lower, ymax = Upper), fill = "deeppink", alpha = 0.35) +
@@ -139,6 +142,8 @@ ggplot(n2_98A, aes(x = Time, y = Median)) +
         legend.text = element_text(size=16),
   ) + 
   scale_x_continuous(minor_breaks = seq(2008 , 2020, 1), breaks = seq(2008, 2020, 2), limits = c(2009.66,2019))
+
+dev.off()
 
 ##########################################
 #COMBINE PLOTS AND CHECK AGAINST ORIGINAL#

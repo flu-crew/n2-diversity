@@ -26,9 +26,9 @@ haPair
 #Retest 02 and 98#
 ##################
 haPair02 <- haPair[c(6,7),]
-haPair02 <- subset(haPair02, select = -c(`2010.2`,`gamma2-beta-like`,`cluster_ivf`,`unknown`, `delta-like`)) #remove zero columns
+haPair02 <- subset(haPair02, select = -c(`H3.2010.2`,`H1.gamma2-beta-like`,`H3.cluster_ivf`,`unknown`, `H1.delta-like`)) #remove zero columns
 haPair98 <- haPair[c(4,5),]
-haPair98 <- subset(haPair98, select = c(`delta2`, `delta1b`, `cluster_ivf`)) #remove columns < 10
+haPair98 <- subset(haPair98, select = c(`H1.delta2`, `H1.delta1b`, `H3.cluster_ivf`)) #remove columns < 10
 (chi02 <- chisq.test(haPair02))
 (fet <- fisher.test(haPair02, workspace = 2e+5, simulate.p.value = TRUE, B = 10000))
 (chi98 <- chisq.test(haPair98))
@@ -145,6 +145,9 @@ obs_na02 <- data.frame(lapply(obs_na02, as.character), stringsAsFactors=FALSE)
 obs_na02$value=as.numeric(obs_na02$value)
 obs_bothna=rbind(obs_na98,obs_na02)
 str(obs_bothna)
+
+tiff('fig5.tiff', units="in", width=5, height=6, res=300, compression = 'lzw')
+
 (plot4 <- ggplot(obs_bothna, aes(Var1, Var2)) + # x and y axes => Var1 and Var2
     geom_tile(aes(fill = value, width=1, height=1)) + # background colours are mapped according to the value column
     geom_text(aes(fill = obs_bothna$value, label = round(obs_bothna$value, 2))) + # write the values
@@ -153,10 +156,10 @@ str(obs_bothna)
                          mid = "white", 
                          high = "#ed4e4e", 
                          midpoint = 0) +  # determine the colour
-    theme(panel.grid.major.x=element_blank(), #no gridlines
-          panel.grid.minor.x=element_blank(), 
-          panel.grid.major.y=element_blank(), 
-          panel.grid.minor.y=element_blank(),
+    theme(#panel.grid.major.x=element_blank(), #no gridlines
+          #panel.grid.minor.x=element_blank(), 
+          #panel.grid.major.y=element_blank(), 
+          #panel.grid.minor.y=element_blank(),
           panel.background=element_rect(fill="white"), # background=white
           axis.text.x = element_text(angle=90, hjust = 1,vjust=1,size = 14,face = "bold"),
           plot.title = element_text(size=18,face="bold"),
@@ -168,8 +171,13 @@ str(obs_bothna)
     labs(fill="Detections")+
   facet_grid(~N2, scale="free",space="free"))
 
+dev.off()
+
 #Plot together
 library(cowplot)
 (mixplot <- plot_grid(plot4, plot3, labels = "AUTO", label_size = 18))
 
+
 (mixplot <- plot_grid(plot4, labels = "", label_size = 18))
+
+
